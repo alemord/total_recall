@@ -308,21 +308,21 @@
 // H.
 
 
- function printLongestWord(arr) {
-    let longestWord = "";
-    for (let i = 0; i < arr.length; i++) {
-      if (arr[i].length > longestWord.length) {
-        longestWord = arr[i];
-      }
-    }
-    return longestWord;
-  }
-  console.log(printLongestWord(["BoJack", "Princess", "Diane", "a", "Max", "Peanutbutter", "big", "Todd"]));
- => "Peanutbutter"
+//  function printLongestWord(arr) {
+//     let longestWord = "";
+//     for (let i = 0; i < arr.length; i++) {
+//       if (arr[i].length > longestWord.length) {
+//         longestWord = arr[i];
+//       }
+//     }
+//     return longestWord;
+//   }
+//   console.log(printLongestWord(["BoJack", "Princess", "Diane", "a", "Max", "Peanutbutter", "big", "Todd"]));
+//  => "Peanutbutter"
 
 
 
-//_____________________________________________________________
+// //_____________________________________________________________
 
 
 
@@ -331,14 +331,72 @@
 
 // V. Objects
 // A.
-// B.
-// C.
-// D.
-// E.
-// F.
+// const user = {
+//   name: 'Alex',
+//   email: 'alexmordini@me.com',
+//   age: 35,
+//   purchased: []
+// };
+// console.log (user);
+// // B.
+
+// user.email = 'alex.new@me.com';
+// user.age++;
+
+// console.log(user);
+// // C.
+// user.location = "New York";
+// console.log (user);
+// // D.
+// user.purchased.push('carbohydrates');
+// user.purchased.push('peace of mind');
+// user.purchased.push('Merino jodhpurs');
+
+// console.log(user.purchased[2]);
+// console.log (user);
+// // E.
+// user.friend = {
+//   name: 'Gennaro',
+//   age: 40,
+//   location: 'Brooklyn',
+//   purchased: ['sweater', 'pasta', 'patience']
+// };
+
+// console.log(user.friend.name);
+// console.log(user.friend.location);
+
+// user.friend.age = 55;
+
+// user.friend.purchased.push('The One Ring');
+// user.friend.purchased.push('A latte');
+
+// console.log(user.friend.purchased[1]);
+// console.log (user.friend);
+// // F.
+// for (let i = 0; i < user.purchased.length; i++) {
+//   console.log(user.purchased[i]);
+// }
+
+// for (let i = 0; i < user.friend.purchased.length; i++) {
+//   console.log(user.friend.purchased[i]);
+}
 // G.
+ 
 //_____________________________________________________________
 
+// function updateUser() {
+//   user.age++;
+//   user.name = user.name.toUpperCase();
+// }
 
-// Extra
+// function oldAndLoud(person) {
+//   person.age++;
+//   person.name = person.name.toUpperCase();
+// }
+
+// updateUser();
+// oldAndLoud(user);
+
+// console.log(user);
+// // Extra
 
